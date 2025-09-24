@@ -17,7 +17,7 @@ OHARA_APPS = {
         "title": "📖 Python 101"
     },
     "Control Flow & Logic": {
-        "url": "https://ohara.ai/mini-apps/8ed157b1-9d51-44fa-bafd-405b7e99ff8e?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/491b5f00-9103-434e-8e35-620de7b9ab2b?utm_source=learnpy",
         "title": "🔀 Control Flow & Logic"
     },
     "Data Structures": {
