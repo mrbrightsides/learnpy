@@ -13,39 +13,39 @@ import streamlit.components.v1 as components
 # ==== Ohara Miniapps ====
 OHARA_APPS = {
     "Python 101": {
-        "url": "https://ohara.ai/mini-apps/be992dff-155e-4182-a55a-923ac2b3a2ca?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/be992dff-155e-4182-a55a-923ac2b3a2ca?utm_source=rantai-learnpy",
         "title": "📖 Python 101"
     },
     "Control Flow & Logic": {
-        "url": "https://ohara.ai/mini-apps/491b5f00-9103-434e-8e35-620de7b9ab2b?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/491b5f00-9103-434e-8e35-620de7b9ab2b?utm_source=rantai-learnpy",
         "title": "🔀 Control Flow & Logic"
     },
     "Data Structures": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffptu29011cb3lkcmx6h3co?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/miniapp_cmffptu29011cb3lkcmx6h3co?utm_source=rantai-learnpy",
         "title": "📦 Data Structures"
     },
     "Functions & Modules": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffqhjpu0173b3lkbvhh7arq?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/miniapp_cmffqhjpu0173b3lkbvhh7arq?utm_source=rantai-learnpy",
         "title": "🛠️ Functions & Modules"
     },
     "Object-Oriented Programming (OOP)": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffs5rj50oz18nlk6ogi2lmp?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/miniapp_cmffs5rj50oz18nlk6ogi2lmp?utm_source=rantai-learnpy",
         "title": "🧱 Object-Oriented Programming (OOP)"
     },
     "Python for Data": {
-        "url": "https://ohara.ai/mini-apps/e33686f2-bdec-4043-b683-0fd4507979b2?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/e33686f2-bdec-4043-b683-0fd4507979b2?utm_source=rantai-learnpy",
         "title": "📊 Python for Data"
     },
     "Python for Web & API": {
-        "url": "https://ohara.ai/mini-apps/0c47e8dd-0310-4bf6-8e02-c97612856385?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/0c47e8dd-0310-4bf6-8e02-c97612856385?utm_source=rantai-learnpy",
         "title": "🌐 Python for Web & API"
     },
     "Python for AI/ML": {
-        "url": "https://ohara.ai/mini-apps/6a9f756b-573c-442c-9544-792660d7a86a?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/6a9f756b-573c-442c-9544-792660d7a86a?utm_source=rantai-learnpy",
         "title": "🤖 Python for AI/ML"
     },
     "Final Project": {
-        "url": "https://ohara.ai/mini-apps/e86a5136-f96f-4d52-af61-8de234ed7686?utm_source=learnpy",
+        "url": "https://ohara.ai/mini-apps/e86a5136-f96f-4d52-af61-8de234ed7686?utm_source=rantai-learnpy",
         "title": "🎓 Final Project"
     }
 }
@@ -174,24 +174,15 @@ with st.sidebar:
     )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    Learn3 adalah platform edukasi Web3 interaktif yang dikemas seperti game petualangan. Memadukan AI bot dan mentor, gamifikasi, serta real-world tools dari ekosistem blockchain.
-    Kami percaya belajar Web3 bukan sekadar membaca teori, tapi perjalanan interaktif:
-
-    - mulai dari dasar,
+    LearnPy adalah ruang belajar Python step-by-step, mulai dari dasar hingga pengenalan ke Data, Web/API, dan AI/ML.
+    Konsepnya mirip Learn3 (simple, modular, interaktif), tapi khusus difokuskan untuk bahasa Python.
     
-    - naik level lewat simulasi,
-    
-    - eksplorasi frontier research,
-    
-    - dan menutup perjalanan dengan reward on-chain sebagai bukti pencapaian.
-
-    Showcase dan dokumentasi ada disini [Doc](https://learn3showcase.vercel.app)
+    Tujuannya: bikin Python gampang dipelajari, fun, tapi tetap serius sampai siap dipakai di project nyata.
     
     ---
     #### 🔮 Vision Statement
-    User belajar lewat chatbot AI, latihan simulasi DeFi & DAO, eksperimen smart contract, hingga riset cutting-edge seperti zkML.
-    Setiap langkah terhubung dengan ekosistem STC (GasVision, Bench, Converter, Analytics) untuk pengalaman nyata.
-    Di akhir perjalanan, user mendapatkan sertifikat Soul Bound Token (SBT) eksklusif — bukti abadi di blockchain bahwa mereka adalah bagian dari pionir Web3.
+    Visi LearnPy adalah membekali siapa saja dengan kemampuan Python yang aplikatif, bisa dipakai untuk kuliah, riset, sampai proyek industri.
+    > Learning Python should feel simple, structured, and sustainable.
 
     ---
     ### 🧩 STC Ecosystem
@@ -216,7 +207,7 @@ with st.sidebar:
     2. [Computational Analytics Studio](https://komnumlab.streamlit.app/)
     3. [BlockPedia](https://blockpedia.streamlit.app/)
     4. [Learn3](https://learn3.streamlit.app/)
-    5. [LearnPy](https://learnpy.streamlit.app/)
+    5. [LearnPy](https://rantai-learnpy.streamlit.app/)
 
     🌐 Net → “Connect the chain”
     1. [SmartFaith](https://smartfaith.streamlit.app/)
