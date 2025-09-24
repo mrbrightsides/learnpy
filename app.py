@@ -289,7 +289,7 @@ with tabs[0]:
     
     widget_opt = st.radio(
         " ",
-        ["BlockTutor""AI Gateway"],
+        ["BlockTutor", "AI Gateway"],
         horizontal=True, label_visibility="collapsed",
         index=["BlockTutor","AI Gateway"].index(st.session_state.chat_widget),
         key="chat_widget"
