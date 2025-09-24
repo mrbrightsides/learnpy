@@ -280,24 +280,24 @@ tabs = st.tabs([
 with tabs[0]:
     st.subheader("🤖 Chatbot AI-powered Playground")
     st.markdown("""
-        Tanya jawab interaktif tentang blockchain, smart contract, dan Web3. Pilih sesuai kebutuhan kamu.
+        Tanya AI seputar Web3 dengan vibes yang friendly.
     """)
-    
+        
     # --- Persist pilihan widget
     if "chat_widget" not in st.session_state:
-        st.session_state.chat_widget = "BlockTutor"  # default
+        st.session_state.chat_widget = "PyTutor"  # default
     
     widget_opt = st.radio(
         " ",
-        ["BlockTutor", "AI Gateway"],
+        ["PyTutor", "PyGateway"],
         horizontal=True, label_visibility="collapsed",
-        index=["BlockTutor","AI Gateway"].index(st.session_state.chat_widget),
+        index=["PyTutor","PyGateway"].index(st.session_state.chat_widget),
         key="chat_widget"
     )
     
     URLS = {
-        "BlockTutor": "https://www.chatbase.co/chatbot-iframe/RIURX1Atx537tDeYNcw8R",
-        "AI Gateway": "https://learn3ai.vercel.app/"
+        "PyTutor": "https://www.chatbase.co/chatbot-iframe/RIURX1Atx537tDeYNcw8R",
+        "PyGateway":"https://learn3ai.vercel.app/"
     }
     chosen_url = URLS[widget_opt]
     
