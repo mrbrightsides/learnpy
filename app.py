@@ -25,11 +25,11 @@ OHARA_APPS = {
         "title": "📦 Data Structures"
     },
     "Functions & Modules": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffqhjpu0173b3lkbvhh7arq?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/4a7f4d66-8217-4c85-a7a7-ad7cc0eee882?utm_source=rantai-learnpy",
         "title": "🛠️ Functions & Modules"
     },
     "OOP": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffs5rj50oz18nlk6ogi2lmp?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/35beb150-e2e2-4ce4-9274-96e9b8cb85ad?utm_source=rantai-learnpy",
         "title": "🧱 OOP"
     },
     "Py for Data": {
