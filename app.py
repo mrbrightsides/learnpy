@@ -28,9 +28,9 @@ OHARA_APPS = {
         "url": "https://ohara.ai/mini-apps/miniapp_cmffqhjpu0173b3lkbvhh7arq?utm_source=rantai-learnpy",
         "title": "🛠️ Functions & Modules"
     },
-    "Object-Oriented Programming": {
+    "OOP": {
         "url": "https://ohara.ai/mini-apps/miniapp_cmffs5rj50oz18nlk6ogi2lmp?utm_source=rantai-learnpy",
-        "title": "🧱 Object-Oriented Programming"
+        "title": "🧱 OOP"
     },
     "Py for Data": {
         "url": "https://ohara.ai/mini-apps/e33686f2-bdec-4043-b683-0fd4507979b2?utm_source=rantai-learnpy",
@@ -270,7 +270,7 @@ tabs = st.tabs([
     "🔀 Control Flow & Logic",
     "📦 Data Structures",
     "🛠️ Functions & Modules",
-    "🧱 Object-Oriented Programming",
+    "🧱 OOP",
     "📊 Py for Data",
     "🌐 Py for Web & API",
     "🤖 Py for AI/ML",
@@ -333,9 +333,9 @@ with tabs[4]:
     app = OHARA_APPS["Functions & Modules"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
 
-# === Tab 5: Object-Oriented Programming (iframe ke Ohara) ===
+# === Tab 5: OOP (iframe ke Ohara) ===
 with tabs[5]:
-    app = OHARA_APPS["Object-Oriented Programming"]
+    app = OHARA_APPS["OOP"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
     
 # === Tab 6: Py for Data (iframe ke Ohara) ===
