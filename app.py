@@ -41,11 +41,11 @@ OHARA_APPS = {
         "title": "🌐 Py for Web & API"
     },
     "Py for AI/ML": {
-        "url": "https://ohara.ai/mini-apps/6a9f756b-573c-442c-9544-792660d7a86a?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/2b644af0-018c-481a-80e0-792dc7427d16?utm_source=rantai-learnpy",
         "title": "🤖 Py for AI/ML"
     },
     "Final Project": {
-        "url": "https://ohara.ai/mini-apps/e86a5136-f96f-4d52-af61-8de234ed7686?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/dfae20e7-edef-4845-8556-f06515f8373d?utm_source=rantai-learnpy",
         "title": "🎓 Final Project"
     }
 }
@@ -297,8 +297,8 @@ with tabs[0]:
     )
     
     URLS = {
-        "PyTutor": "https://www.chatbase.co/chatbot-iframe/RIURX1Atx537tDeYNcw8R",
-        "PyGateway":"https://learn3ai.vercel.app/"
+        "PyTutor": "https://www.chatbase.co/chatbot-iframe/2JHRFT7U1mqvZHoHrJqeH",
+        "PyGateway":"https://learnpy-ai.vercel.app/"
     }
     chosen_url = URLS[widget_opt]
     
