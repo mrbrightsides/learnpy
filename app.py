@@ -21,7 +21,7 @@ OHARA_APPS = {
         "title": "🔀 Control Flow & Logic"
     },
     "Data Structures": {
-        "url": "https://ohara.ai/mini-apps/miniapp_cmffptu29011cb3lkcmx6h3co?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/833244b7-4a17-41ad-88fc-a22780bed324?utm_source=rantai-learnpy",
         "title": "📦 Data Structures"
     },
     "Functions & Modules": {
