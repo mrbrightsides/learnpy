@@ -265,7 +265,7 @@ st.markdown("""
 
 # ===== Tab utama =====
 tabs = st.tabs([
-    "🤖 AI PyPlayground", 
+    "🤖 PyPlayground with AI", 
     "📖 Python 101",
     "🔀 Control Flow & Logic",
     "📦 Data Structures",
