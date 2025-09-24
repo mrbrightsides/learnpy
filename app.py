@@ -349,7 +349,7 @@ with tabs[8]:
     app = OHARA_APPS["Python for AI/ML"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
 
-# === Tab 9: Certification (iframe ke Ohara) ===
+# === Tab 9: Final Project (iframe ke Ohara) ===
 with tabs[9]:
-    app = OHARA_APPS["Certification"]
+    app = OHARA_APPS["Final Project"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
