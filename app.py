@@ -33,11 +33,11 @@ OHARA_APPS = {
         "title": "🧱 OOP"
     },
     "Py for Data": {
-        "url": "https://ohara.ai/mini-apps/e33686f2-bdec-4043-b683-0fd4507979b2?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/927ae816-a46c-43ca-ab6e-2889dd6a472b?utm_source=rantai-learnpy",
         "title": "📊 Py for Data"
     },
     "Py for Web & API": {
-        "url": "https://ohara.ai/mini-apps/0c47e8dd-0310-4bf6-8e02-c97612856385?utm_source=rantai-learnpy",
+        "url": "https://ohara.ai/mini-apps/12df8624-3bab-4ace-9cb8-51dceae49177?utm_source=rantai-learnpy",
         "title": "🌐 Py for Web & API"
     },
     "Py for AI/ML": {
