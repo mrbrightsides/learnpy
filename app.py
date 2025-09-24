@@ -265,7 +265,7 @@ st.markdown("""
 
 # ===== Tab utama =====
 tabs = st.tabs([
-    "🤖 AI Playground", 
+    "🤖 AI PyPlayground", 
     "📖 Python 101",
     "🔀 Control Flow & Logic",
     "📦 Data Structures",
@@ -281,7 +281,7 @@ tabs = st.tabs([
 with tabs[0]:
     st.subheader("🤖 Chatbot AI-powered Playground")
     st.markdown("""
-        Tanya AI seputar Web3 dengan vibes yang friendly.
+        Tanya AI seputar Python dengan vibes yang friendly.
     """)
         
     # --- Persist pilihan widget
