@@ -272,6 +272,7 @@ tabs = st.tabs([
     "🛠️ Functions & Modules",
     "🧱 Object-Oriented Programming (OOP)",
     "📊 Python for Data",
+    "🌐 Python for Web & API",
     "🤖 Python for AI/ML",
     "🎓 Final Project"
 ])
