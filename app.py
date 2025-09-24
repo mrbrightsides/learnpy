@@ -282,9 +282,6 @@ with tabs[0]:
     st.markdown("""
         Tanya jawab interaktif tentang blockchain, smart contract, dan Web3. Pilih sesuai kebutuhan kamu.
     """)
-    st.markdown("""
-        Belajar dasar (Bot + Chat + Tutor) → Latihan (Simulators) → Quiz → Eksplorasi lanjut (Research) → Bebas tanya (AI Gateway).
-    """)
     
     # --- Persist pilihan widget
     if "chat_widget" not in st.session_state:
@@ -310,9 +307,11 @@ with tabs[0]:
     st.write(f"💬 Chat aktif: **{widget_opt}**")
     st.caption("Jika area kosong, kemungkinan dibatasi oleh CSP/X-Frame-Options dari penyedia.")
     
+    iframe(src=final_url, height=720)
+    
     if st.button(f"🔗 Klik disini jika ingin menampilkan halaman chat {widget_opt} dengan lebih baik"):
         st.markdown(f"""<meta http-equiv="refresh" content="0; url={chosen_url}">""", unsafe_allow_html=True)
-
+        
 # === Tab 1: Python 101 (iframe ke Ohara) ===
 with tabs[1]:
     app = OHARA_APPS["Python 101"]
