@@ -292,20 +292,14 @@ with tabs[0]:
     
     widget_opt = st.radio(
         " ",
-        ["BlockBot","BlockChat","BlockTutor","DAO Voter Simulator","LP Simulator","Quiz","Research","AI Gateway"],
+        ["BlockTutor""AI Gateway"],
         horizontal=True, label_visibility="collapsed",
-        index=["BlockBot","BlockChat","BlockTutor","DAO Voter Simulator","LP Simulator","Quiz","Research","AI Gateway"].index(st.session_state.chat_widget),
+        index=["BlockTutor","AI Gateway"].index(st.session_state.chat_widget),
         key="chat_widget"
     )
     
     URLS = {
-        "BlockBot": "https://my.artibot.ai/learn3bot",
-        "BlockChat": "https://bot.writesonic.com/share/bot/a148b878-259e-4591-858a-8869b9b23604",
         "BlockTutor": "https://www.chatbase.co/chatbot-iframe/RIURX1Atx537tDeYNcw8R",
-        "DAO Voter Simulator": "https://tawk.to/chat/68ba6085721af15d8752fbc5/1j4c0i358",
-        "LP Simulator": "https://denser.ai/u/embed/chatbot_o90yjz0cba1ymfmzi2nwr",
-        "Quiz": "https://wayground.com/embed/quiz/68bb727d3fa528df7533c75e",
-        "Research": "https://zenoembed.textcortex.com/?embed_id=emb_01k4cfh76fehtte5jgmy3atz69",
         "AI Gateway": "https://learn3ai.vercel.app/"
     }
     chosen_url = URLS[widget_opt]
@@ -315,13 +309,6 @@ with tabs[0]:
     
     st.write(f"💬 Chat aktif: **{widget_opt}**")
     st.caption("Jika area kosong, kemungkinan dibatasi oleh CSP/X-Frame-Options dari penyedia.")
-    
-    if widget_opt == "BlockChat":
-        # Botsonic: sembunyikan header atas dengan crop ~56px (atur sesuai kebutuhan)
-        embed_cropped(final_url, hide_px=56, height=720, title=None)
-    else:
-        # Widget lain tetap pakai iframe standar
-        iframe(src=final_url, height=720)
     
     if st.button(f"🔗 Klik disini jika ingin menampilkan halaman chat {widget_opt} dengan lebih baik"):
         st.markdown(f"""<meta http-equiv="refresh" content="0; url={chosen_url}">""", unsafe_allow_html=True)
