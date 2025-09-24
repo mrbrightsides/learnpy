@@ -340,17 +340,17 @@ with tabs[5]:
     
 # === Tab 6: Py for Data (iframe ke Ohara) ===
 with tabs[6]:
-    app = OHARA_APPS["Python for Data"]
+    app = OHARA_APPS["Py for Data"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
     
 # === Tab 7: Py for Web & API (iframe ke Ohara) ===
 with tabs[7]:
-    app = OHARA_APPS["Python for Web & API"]
+    app = OHARA_APPS["Py for Web & API"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
 
 # === Tab 8: Py for AI/ML (iframe ke Ohara) ===
 with tabs[8]:
-    app = OHARA_APPS["Python for AI/ML"]
+    app = OHARA_APPS["Py for AI/ML"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
 
 # === Tab 9: Final Project (iframe ke Ohara) ===
