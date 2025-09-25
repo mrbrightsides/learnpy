@@ -319,7 +319,7 @@ with tabs[0]:
 # === Tab 1: Python 101 (iframe ke Ohara) ===
 with tabs[1]:
     app = OHARA_APPS["Python 101"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 25)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
     
 # === Tab 2: Control Flow & Logic (iframe ke Ohara) ===
 with tabs[2]:
