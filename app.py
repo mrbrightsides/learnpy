@@ -263,7 +263,7 @@ with col2:
         ## Code. Think. Automate. Innovate — Your Python Journey Starts Here
     """)
 st.markdown("""
-        > 💡 Untuk tampilan dan pengalaman belajar yang optimal, disarankan menggunakan browser pada laptop atau PC untuk mengakses Learn3
+        > 💡 Untuk tampilan dan pengalaman belajar yang optimal, disarankan menggunakan browser pada laptop atau PC untuk mengakses LearnPy
     """)
 
 # ===== Tab utama =====
