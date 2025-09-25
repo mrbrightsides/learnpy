@@ -319,44 +319,44 @@ with tabs[0]:
 # === Tab 1: Python 101 (iframe ke Ohara) ===
 with tabs[1]:
     app = OHARA_APPS["Python 101"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
     
 # === Tab 2: Control Flow & Logic (iframe ke Ohara) ===
 with tabs[2]:
     app = OHARA_APPS["Control Flow & Logic"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
 
 # === Tab 3: Data Structures (iframe ke Ohara) ===
 with tabs[3]:
     app = OHARA_APPS["Data Structures"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
     
 # === Tab 4: Functions & Modules (iframe ke Ohara) ===
 with tabs[4]:
     app = OHARA_APPS["Functions & Modules"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
 
 # === Tab 5: OOP (iframe ke Ohara) ===
 with tabs[5]:
     app = OHARA_APPS["OOP"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
     
 # === Tab 6: Py for Data (iframe ke Ohara) ===
 with tabs[6]:
     app = OHARA_APPS["Py for Data"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
     
 # === Tab 7: Py for Web & API (iframe ke Ohara) ===
 with tabs[7]:
     app = OHARA_APPS["Py for Web & API"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
 
 # === Tab 8: Py for AI/ML (iframe ke Ohara) ===
 with tabs[8]:
     app = OHARA_APPS["Py for AI/ML"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
 
 # === Tab 9: Final Project (iframe ke Ohara) ===
 with tabs[9]:
     app = OHARA_APPS["Final Project"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 45)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 80)
