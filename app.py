@@ -326,7 +326,7 @@ with tabs[3]:
 # === Tab 4: Functions & Modules (iframe ke Ohara) ===
 with tabs[4]:
     app = OHARA_APPS["Functions & Modules"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 25)
+    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
 
 # === Tab 5: OOP (iframe ke Ohara) ===
 with tabs[5]:
