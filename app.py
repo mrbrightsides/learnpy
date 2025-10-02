@@ -267,7 +267,7 @@ with tabs[0]:
 # === Tab 1: Python 101 (iframe ke ELPEEF) ===
 with tabs[1]:
     app = ELPEEF_APPS["Python 101"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -50)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
     
 # === Tab 2: Control Flow & Logic (iframe ke ELPEEF) ===
 with tabs[2]:
