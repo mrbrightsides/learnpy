@@ -272,39 +272,39 @@ with tabs[1]:
 # === Tab 2: Control Flow & Logic (iframe ke ELPEEF) ===
 with tabs[2]:
     app = ELPEEF_APPS["Control Flow & Logic"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
 
 # === Tab 3: Data Structures (iframe ke ELPEEF) ===
 with tabs[3]:
     app = ELPEEF_APPS["Data Structures"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
     
 # === Tab 4: Functions & Modules (iframe ke ELPEEF) ===
 with tabs[4]:
     app = ELPEEF_APPS["Functions & Modules"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
 
 # === Tab 5: OOP (iframe ke ELPEEF) ===
 with tabs[5]:
     app = ELPEEF_APPS["OOP"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
     
 # === Tab 6: Py for Data (iframe ke ELPEEF) ===
 with tabs[6]:
     app = ELPEEF_APPS["Py for Data"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
     
 # === Tab 7: Py for Web & API (iframe ke ELPEEF) ===
 with tabs[7]:
     app = ELPEEF_APPS["Py for Web & API"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
 
 # === Tab 8: Py for AI/ML (iframe ke ELPEEF) ===
 with tabs[8]:
     app = ELPEEF_APPS["Py for AI/ML"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
 
 # === Tab 9: Final Project (iframe ke ELPEEF) ===
 with tabs[9]:
     app = ELPEEF_APPS["Final Project"]
-    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -115)
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -25)
