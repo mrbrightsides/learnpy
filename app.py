@@ -10,42 +10,42 @@ from streamlit.components.v1 import iframe
 import streamlit as st
 import streamlit.components.v1 as components
 
-# ==== Ohara Miniapps ====
-OHARA_APPS = {
+# ==== ELPEEF Miniapps ====
+ELPEEF_APPS = {
     "Python 101": {
-        "url": "https://ohara.ai/mini-apps/be992dff-155e-4182-a55a-923ac2b3a2ca?utm_source=rantai-learnpy",
+        "url": "https://python101.elpeef.com/?utm_source=rantai-learnpy",
         "title": "📖 Python 101"
     },
     "Control Flow & Logic": {
-        "url": "https://ohara.ai/mini-apps/491b5f00-9103-434e-8e35-620de7b9ab2b?utm_source=rantai-learnpy",
+        "url": "https://controlflow.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🔀 Control Flow & Logic"
     },
     "Data Structures": {
-        "url": "https://ohara.ai/mini-apps/833244b7-4a17-41ad-88fc-a22780bed324?utm_source=rantai-learnpy",
+        "url": "https://datastructures.elpeef.com/?utm_source=rantai-learnpy",
         "title": "📦 Data Structures"
     },
     "Functions & Modules": {
-        "url": "https://ohara.ai/mini-apps/4a7f4d66-8217-4c85-a7a7-ad7cc0eee882?utm_source=rantai-learnpy",
+        "url": "https://function.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🛠️ Functions & Modules"
     },
     "OOP": {
-        "url": "https://ohara.ai/mini-apps/35beb150-e2e2-4ce4-9274-96e9b8cb85ad?utm_source=rantai-learnpy",
+        "url": "https://oop.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🧱 OOP"
     },
     "Py for Data": {
-        "url": "https://ohara.ai/mini-apps/927ae816-a46c-43ca-ab6e-2889dd6a472b?utm_source=rantai-learnpy",
+        "url": "https://pyfordata.elpeef.com/?utm_source=rantai-learnpy",
         "title": "📊 Py for Data"
     },
     "Py for Web & API": {
-        "url": "https://ohara.ai/mini-apps/12df8624-3bab-4ace-9cb8-51dceae49177?utm_source=rantai-learnpy",
+        "url": "https://pyforweb.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🌐 Py for Web & API"
     },
     "Py for AI/ML": {
-        "url": "https://ohara.ai/mini-apps/2b644af0-018c-481a-80e0-792dc7427d16?utm_source=rantai-learnpy",
+        "url": "https://pyforai.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🤖 Py for AI/ML"
     },
     "Final Project": {
-        "url": "https://ohara.ai/mini-apps/dfae20e7-edef-4845-8556-f06515f8373d?utm_source=rantai-learnpy",
+        "url": "https://certlearnpy.elpeef.com/?utm_source=rantai-learnpy",
         "title": "🎓 Final Project"
     }
 }
@@ -115,13 +115,13 @@ def embed_lab(url, title="", hide_top=72, hide_bottom=0, height=720):
                     font-weight:600;opacity:.6;transition:opacity .3s ease">
           Loading module…
         </div>
-        <iframe id="ohara" src="{url}"
+        <iframe id="ELPEEF" src="{url}"
           style="position:absolute; top:{top_offset}px; left:0;
                  width:100%; height:{iframe_height}px;
                  border:0; border-radius:12px; overflow:hidden"></iframe>
       </div>
       <script>
-        const ifr = document.getElementById('ohara');
+        const ifr = document.getElementById('ELPEEF');
         ifr.addEventListener('load', () => {{
           const l = document.getElementById('loader');
           if (l) {{
@@ -264,47 +264,47 @@ with tabs[0]:
     if st.button(f"🔗 Klik disini jika ingin menampilkan halaman chat {widget_opt} dengan lebih baik"):
         st.markdown(f"""<meta http-equiv="refresh" content="0; url={chosen_url}">""", unsafe_allow_html=True)
         
-# === Tab 1: Python 101 (iframe ke Ohara) ===
+# === Tab 1: Python 101 (iframe ke ELPEEF) ===
 with tabs[1]:
-    app = OHARA_APPS["Python 101"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Python 101"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
     
-# === Tab 2: Control Flow & Logic (iframe ke Ohara) ===
+# === Tab 2: Control Flow & Logic (iframe ke ELPEEF) ===
 with tabs[2]:
-    app = OHARA_APPS["Control Flow & Logic"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Control Flow & Logic"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
 
-# === Tab 3: Data Structures (iframe ke Ohara) ===
+# === Tab 3: Data Structures (iframe ke ELPEEF) ===
 with tabs[3]:
-    app = OHARA_APPS["Data Structures"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Data Structures"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
     
-# === Tab 4: Functions & Modules (iframe ke Ohara) ===
+# === Tab 4: Functions & Modules (iframe ke ELPEEF) ===
 with tabs[4]:
-    app = OHARA_APPS["Functions & Modules"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Functions & Modules"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
 
-# === Tab 5: OOP (iframe ke Ohara) ===
+# === Tab 5: OOP (iframe ke ELPEEF) ===
 with tabs[5]:
-    app = OHARA_APPS["OOP"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["OOP"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
     
-# === Tab 6: Py for Data (iframe ke Ohara) ===
+# === Tab 6: Py for Data (iframe ke ELPEEF) ===
 with tabs[6]:
-    app = OHARA_APPS["Py for Data"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Py for Data"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
     
-# === Tab 7: Py for Web & API (iframe ke Ohara) ===
+# === Tab 7: Py for Web & API (iframe ke ELPEEF) ===
 with tabs[7]:
-    app = OHARA_APPS["Py for Web & API"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Py for Web & API"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
 
-# === Tab 8: Py for AI/ML (iframe ke Ohara) ===
+# === Tab 8: Py for AI/ML (iframe ke ELPEEF) ===
 with tabs[8]:
-    app = OHARA_APPS["Py for AI/ML"]
-    embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
+    app = ELPEEF_APPS["Py for AI/ML"]
+    embed_lab(app["url"], app["title"], hide_top=0, hide_bottom = -100)
 
-# === Tab 9: Final Project (iframe ke Ohara) ===
+# === Tab 9: Final Project (iframe ke ELPEEF) ===
 with tabs[9]:
-    app = OHARA_APPS["Final Project"]
+    app = ELPEEF_APPS["Final Project"]
     embed_lab(app["url"], app["title"], hide_top=110, hide_bottom = 15)
